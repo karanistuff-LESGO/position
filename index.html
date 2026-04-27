@@ -5,57 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div.sticky{
-            position: sticky;
-            top: 0;
-            background-color: yellow;
+        p {
+            opacity: 0.5;
         }
-        div.relative{
-            position: relative;
-            top: 20px;
-            left: 20px;
-            background-color: lightblue;
+        .first {
+            opacity: 0.8;
         }
-        div.absolute{
-            position: absolute;
-            top: 50px;
-            left: 50px;
-            background-color: lightgreen;
+        .second {
+            opacity: 0.6;
         }
-        div.fixed{
-            position: fixed;
-            top: 0;
-            right: 0;
-            background-color: lightcoral;
+        .third {
+            opacity: 0.4;
         }
         </style>
 </head>
 <body>
-    <!-- change the position to show difference 
-     static
-     relative 
-     absolute
-     fixed
-     sticky -->
+    <h1> the opacity property </h1>
+    <p>This is a paragraph with reduced opacity.</p>
 
-     <h2>positioning</h2>
-     <div>
-        div with no position property
-     </div>
-     <div class="sticky">
-        div with sticky position property
-     </div>
-     <div class="relative">
-        div with relative position property;
-        <div class="absolute">
-            div with absolute position property
-        </div>
+    <div class="first">
+        <p>This is the first div.</p>
+    </div>
+    <div class="second">
+        <p>This is the second div.</p>
+    </div>
+    <div class="third">
+        <p>This is the third div.</p>
         </div>
 
-        <div class="fixed">
-div with fixed position property
-        </div>
-        <br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br>
 </body>
+</html>
